@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <section class="contact-section">
+    <div class="container">
+      <!-- Left Contact Details Section -->
+      <div class="contact-details">
+        <h2>Contact Details</h2>
+        <p>We have a dedicated support center for all of your support needs. We usually get back to you within 12-24 hours.</p>
+        
+        <div class="detail-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h3>Company Address</h3>
+            <p>Block D, Indira Nagar Main Road, Lucknow, India (226016)</p>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fas fa-globe"></i>
+          <div>
+            <h3>Website</h3>
+            <p>www.mathnixadvertising.com</p>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h3>Support</h3>
+            <p>support@mathnixadvertising.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Contact Form Section -->
+      <div class="contact-form">
+        <form action="/submit" method="post">
+          <input type="text" name="name" placeholder="Your Name*" required>
+          <input type="email" name="email" placeholder="Your Email*" required>
+          <input type="text" name="subject" placeholder="Subject*" required>
+          <textarea name="message" rows="4" placeholder="Type your message here*" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
